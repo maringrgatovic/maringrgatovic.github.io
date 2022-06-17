@@ -1,0 +1,52 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    background-color:bisque
+}
+
+.invitation {
+    width: 100vw;
+    height: 100vh;
+}
+
+.card_face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+.hidden {
+    display: none;
+}
+
+.is_gone {
+    animation: fadeOut;
+    animation-duration: 1s;
+}
+
+.is_here {
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+img {
+    height: 90%;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+
+
+
