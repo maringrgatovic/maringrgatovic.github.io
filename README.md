@@ -1,1 +1,1 @@
-# maringrgatovic.github.io
+# Page for publishing wedding invitation
